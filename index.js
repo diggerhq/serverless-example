@@ -24,7 +24,7 @@ exports.handler = async function(event) {
     return response;
 }
 
-exports.handle2 = async function(event) {
+exports.handler2 = async function(event) {
     let responseCode = 200;
     let responseBody = {
         message: "hello from digger2!",
