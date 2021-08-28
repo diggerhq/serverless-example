@@ -1,0 +1,6 @@
+default:
+  lambda_image_uri: 241275530125.dkr.ecr.us-east-1.amazonaws.com/serve1c17d-default:latest
+  service.appvpb4e41.in_vpc: true
+  service.appvpb4e41.subnet_ids: subnet-0b42c360a09abe3d8,subnet-076ab5478c41f75c8
+  service.appvpb4e41.security_group_ids: sg-020515d8e30b3dccd
+
